@@ -4,10 +4,8 @@ Object WeatherJob {
 
 
   /*
-   UseCase:
-   Solution:
-   @params:
-   @return:
+   UseCase:Create meaning out of the NOAA weather data
+   Solution:Pick a weather station (Niagara) and see the trend of monthly day time average temparature, find the day of min and max temperatures by year
 
    output: --Day of max temperature by year
 +----+-----+---+---------+--------+
