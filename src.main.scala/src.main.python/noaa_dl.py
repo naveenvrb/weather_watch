@@ -23,6 +23,7 @@ def main(argv):
   concurrency = 4
   station_id = None
   
+  # Arguments
   try:
     opts, args = getopt.getopt(sys.argv[1:], 'y:c:s:', [ 'year=', 'concurrency=', 'station=' ])
   except getopt.GetoptError:
